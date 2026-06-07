@@ -13,7 +13,7 @@ export default function ProductCard({ product }) {
   const [showChart, setShowChart] = useState(false);
   const [deleting, setDeleting] = useState(false);
 
-  const handleDelete = async () => {
+  const handleDelete = async () => {  
     if (!confirm("Pakka Hata Do..?")) return;
 
     setDeleting(true);

@@ -55,8 +55,11 @@ export default async function Home() {
       {/* Hero Section */}
       <section className="py-20 px-4">
         <div className="max-w-7xl mx-auto text-center">
-          <div className="inline-flex items-center gap-2 bg-orange-100 text-orange-700 px-6 py-2 rounded-full text-sm font-medium mb-6">
-            fat gyi bnaate bnaate 😭💖
+          <div className="inline-flex items-center gap-2 bg-orange-100 px-6 py-2 rounded-full text-sm font-medium mb-6">
+            <span>Made with</span>
+            <span className="text-red-500">❤️</span>
+            <span>by{" "}</span>
+            <a href="https://github.com/dinesh-mehta7" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-800"> Dinesh Mehta</a>
           </div>
 
           <h2 className="text-5xl font-bold text-gray-900 mb-4 tracking-tight flex items-center justify-center gap-4">

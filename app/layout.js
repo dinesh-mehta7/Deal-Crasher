@@ -2,7 +2,7 @@ import { Toaster } from "@/components/ui/sonner";
 import "./globals.css";
 
 export const metadata = {
-  title: "Deal Crasher - Crash The Bestest Deals",
+  title: "Deal Crasher - Crash The Bestestt Deals",
   description:
     "Track product prices across e-commerce sites and get alerts on price drops",
 };
